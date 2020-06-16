@@ -1,0 +1,97 @@
+body{
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #1e3d59; 
+}
+.display-panel { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    height: 260px;
+}
+.heading{
+    text-align: center;
+    color: #ffc13b;
+    margin-top: 1px;
+}
+.wordlist-information{
+    font-weight: bold;
+    color: #ff6e40;
+    text-align:left;
+}
+.words-list{
+    background-color: #b1adb1; 
+    width: 150px;
+    height: 200px; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    text-align: center; 
+    padding: 20px;
+    margin-top: 5px;
+    border: 2px solid #ff6e40;
+    color: #592f1e;
+}
+.guessed-list{
+    margin: 10px;
+    background-color: #b1adb1; 
+    width: 150px;
+    height: 200px; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    text-align: center; 
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 5px;
+    color: #592f1e;
+}
+.form-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+.guess-textfield{
+    margin: 1px;
+    height: 25px;
+    padding: 3px;
+    width: 140px;
+    text-align: center;
+    background-color: #b1adb1; 
+}
+.matchinglist-panel{
+    color: #592f1e;
+    background-color: #b1adb1; 
+    width: 500px;
+    height: 200px; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    text-align: center; 
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.turns{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #ff6e40;
+}
+.guess-submitbutton{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    padding: 3px;
+    background-color: #b1adb1; 
+}
+.playagain-button{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    padding: 3px;
+    background-color: #b1adb1; 
+}
+
