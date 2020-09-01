@@ -15,12 +15,11 @@ const gameWeb = {
             <div id="game-page">
                 <p class="wordlist-information">Guess a word from the ${wordList[0].length} letter words </p>
                 <div class="display-panel">
+                   <div class = "guessed-list">
+                          ${gameWeb.userGuessedList(game.guesses)}
+                    </div>
                     <div class = "word-list">
                           ${gameWeb.getWordList(words)}
-                    </div>
-                    <div class = "guessed-list">
-                          <h4>Your guesses</h4>
-                          ${gameWeb.userGuessedList(game.guesses)}
                     </div>
                     <div class="matchinglist-panel">
                           ${gameWeb.getMatchedList(game.outputResponse)}
@@ -30,7 +29,7 @@ const gameWeb = {
             <div class="form-panel">
                 <form action = "/sendGame" method="POST">
                     <div>
-                        <input class="guess-textfield" name="text" placeholder="Guess the word"/ ></input>
+                        <input class="guess-textfield" name="text" placeholder="Type here.."></input>
                     </div>
                     <div>   
                         <button class="guess-submitbutton" type="submit">Submit</button>
@@ -76,7 +75,7 @@ const gameWeb = {
   },
 
   getMatchedList: function (matched) {
-    return ` <ul class= "matched" ` +
+    return ` <ul class= "matched" style="list-style-type:none" ` +
       matched.map(match => {
         return `
          <li>
