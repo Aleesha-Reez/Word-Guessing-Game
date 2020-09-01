@@ -2,26 +2,38 @@ body{
     margin: 20px auto;
     text-align: center;
     padding: 20px;
-    background-color: #1e3d59; 
+    font-family: Apple Chancery, cursive;
+    background-image: url("background.jpg"); 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
 }
 .display-panel { 
     display: flex;
     flex-direction: row;
-    margin-top: 5px;
+    margin-top: 3px;
     height: 260px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
 }
 .heading{
     text-align: center;
-    color: #ffc13b;
-    margin-top: 1px;
+    color: black;
+    font-family: Luminari, fantasy;
 }
 .wordlist-information{
     font-weight: bold;
-    color: #ff6e40;
+    color: #ffc13b;
     text-align:left;
+    border-color: black;
+    margin-left: 450px;
 }
 .words-list{
-    background-color: #b1adb1; 
+    background-color: #6e5639;
     width: 150px;
     height: 200px; 
     overflow-x: hidden; 
@@ -29,12 +41,13 @@ body{
     text-align: center; 
     padding: 20px;
     margin-top: 5px;
-    border: 2px solid #ff6e40;
-    color: #592f1e;
+    border:  #ffc13b;
+    color: #ffc13b;
+    border-color: black;
+    border-radius: 35px;
 }
 .guessed-list{
     margin: 10px;
-    background-color: #b1adb1; 
     width: 150px;
     height: 200px; 
     overflow-x: hidden; 
@@ -43,7 +56,9 @@ body{
     padding: 20px;
     margin-left: 70px;
     margin-top: 5px;
-    color: #592f1e;
+    color: #ffc13b;
+    border-color: black;
+    border-radius: 35px;
 }
 .form-panel{
     display: flex;
@@ -51,47 +66,61 @@ body{
     justify-content: center;
     display: inline-block;
     margin-right: 5px;
+    border-color: black;
+    border-radius: 35px;
+    color: black;
 }
 .guess-textfield{
     margin: 1px;
     height: 25px;
-    padding: 3px;
-    width: 140px;
+    padding: 2px;
+    width: 220px;
     text-align: center;
-    background-color: #b1adb1; 
+    border-color: black;
+    background-color: #6e5639; 
+    color: black;
+    border-radius: 8px;
+    font-family: Apple Chancery, cursive;
 }
 .matchinglist-panel{
-    color: #592f1e;
-    background-color: #b1adb1; 
+    color: #ffc13b;
     width: 500px;
-    height: 200px; 
+    height: 220px; 
     overflow-x: hidden; 
     overflow-y: auto;
     text-align: center; 
     padding: 20px;
     margin-top: 5px;
     margin-left: 40px;
+    border-color: rgb(87, 80, 80);
+    border-radius: 35px;
 }
 .turns{
     padding: 10px;
     text-align: center;
     font-size: 30px;
-    color: #ff6e40;
+    color: #ffc13b;
 }
 .guess-submitbutton{
     margin: 10px;
-    padding: 10px;
-    width: 150px;
+    width: 220px;
     height: 35px;
-    padding: 3px;
-    background-color: #b1adb1; 
+    background-color: #6e5639;
+    border-color: rgb(32, 31, 31);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Luminari, fantasy;
 }
 .playagain-button{
     margin: 10px;
     padding: 10px;
-    width: 150px;
+    width: 220px;
     height: 35px;
-    padding: 3px;
-    background-color: #b1adb1; 
+    border-color: black;
+    font-family: Luminari, fantasy;
+    background-color: #6e5639;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
